@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ClockDisplay()
+comment0.text=\n\ Constructor\ for\ ClockDisplay\ objects.\ This\ constructor\ \n\ creates\ a\ new\ clock\ set\ at\ 00\:00.\n
+comment1.params=hour\ minute
+comment1.target=ClockDisplay(int,\ int)
+comment1.text=\n\ Constructor\ for\ ClockDisplay\ objects.\ This\ constructor\n\ creates\ a\ new\ clock\ set\ at\ the\ time\ specified\ by\ the\ \n\ parameters.\n
+comment2.params=
+comment2.target=void\ timeTick()
+comment2.text=\n\ This\ method\ should\ get\ called\ once\ every\ minute\ -\ it\ makes\n\ the\ clock\ display\ go\ one\ minute\ forward.\n
+comment3.params=hour\ minute
+comment3.target=void\ setTime(int,\ int)
+comment3.text=\n\ Set\ the\ time\ of\ the\ display\ to\ the\ specified\ hour\ and\n\ minute.\n
+comment4.params=
+comment4.target=java.lang.String\ getTime()
+comment4.text=\n\ Return\ the\ current\ time\ of\ this\ display\ in\ the\ format\ HH\:MM.\n
+comment5.params=
+comment5.target=void\ updateDisplay()
+comment5.text=\n\ Update\ the\ internal\ string\ that\ represents\ the\ display.\n
+numComments=6

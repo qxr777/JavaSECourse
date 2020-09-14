@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=maxNumberOfStudents
+comment0.target=LabClass(int)
+comment0.text=\n\ Create\ a\ LabClass\ with\ a\ maximum\ number\ of\ enrolments.\ All\ other\ details\n\ are\ set\ to\ default\ values.\n
+comment1.params=newStudent
+comment1.target=void\ enrollStudent(Student)
+comment1.text=\n\ Add\ a\ student\ to\ this\ LabClass.\n
+comment2.params=
+comment2.target=int\ numberOfStudents()
+comment2.text=\n\ Return\ the\ number\ of\ students\ currently\ enrolled\ in\ this\ LabClass.\n
+comment3.params=roomNumber
+comment3.target=void\ setRoom(java.lang.String)
+comment3.text=\n\ Set\ the\ room\ number\ for\ this\ LabClass.\n
+comment4.params=timeAndDayString
+comment4.target=void\ setTime(java.lang.String)
+comment4.text=\n\ Set\ the\ time\ for\ this\ LabClass.\ The\ parameter\ should\ define\ the\ day\n\ and\ the\ time\ of\ day,\ such\ as\ "Friday,\ 10am".\n
+comment5.params=instructorName
+comment5.target=void\ setInstructor(java.lang.String)
+comment5.text=\n\ Set\ the\ name\ of\ the\ instructor\ for\ this\ LabClass.\n
+comment6.params=
+comment6.target=void\ printList()
+comment6.text=\n\ Print\ out\ a\ class\ list\ with\ other\ LabClass\ details\ to\ the\ standard\n\ terminal.\n
+numComments=7

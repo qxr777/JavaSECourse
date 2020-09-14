@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=pickup\ destination
+comment0.target=Passenger(Location,\ Location)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Passenger\n\ @param\ pickup\ The\ pickup\ location,\ must\ not\ be\ null.\n\ @param\ destination\ The\ destination\ location,\ must\ not\ be\ null.\n\ @throws\ NullPointerException\ If\ either\ location\ is\ null.\n
+comment1.params=
+comment1.target=Location\ getPickupLocation()
+comment1.text=\n\ @return\ The\ pickup\ location.\n
+comment2.params=
+comment2.target=Location\ getDestination()
+comment2.text=\n\ @return\ The\ destination\ location.\n
+numComments=3

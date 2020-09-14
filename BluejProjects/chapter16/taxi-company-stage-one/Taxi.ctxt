@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=company\ location
+comment0.target=Taxi(TaxiCompany,\ Location)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Taxi\n\ @param\ company\ The\ taxi\ company.\ Must\ not\ be\ null.\n\ @param\ location\ The\ vehicle's\ starting\ point.\ Must\ not\ be\ null.\n\ @throws\ NullPointerException\ If\ company\ or\ location\ is\ null.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Carry\ out\ a\ taxi's\ actions.\n
+comment2.params=
+comment2.target=boolean\ isFree()
+comment2.text=\n\ Is\ the\ taxi\ free?\n\ @return\ Whether\ or\ not\ this\ taxi\ is\ free.\n
+comment3.params=location
+comment3.target=void\ setPickupLocation(Location)
+comment3.text=\n\ Receive\ a\ pickup\ location.\ This\ becomes\ the\n\ target\ location.\n\ @param\ location\ The\ pickup\ location.\n
+comment4.params=passenger
+comment4.target=void\ pickup(Passenger)
+comment4.text=\n\ Receive\ a\ passenger.\n\ Set\ their\ destination\ as\ the\ target\ location.\n\ @param\ passenger\ The\ passenger.\n
+comment5.params=
+comment5.target=void\ offloadPassenger()
+comment5.text=\n\ Offload\ the\ passenger.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Return\ details\ of\ the\ taxi,\ such\ as\ where\ it\ is.\n\ @return\ A\ string\ representation\ of\ the\ taxi.\n
+numComments=7

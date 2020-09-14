@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=InputReader()
+comment0.text=\nCreate\ a\ new\ InputReader\ that\ reads\ text\ from\ the\ text\ terminal.\n\n
+comment1.target=HashSet<String>\ getInput()
+comment1.text=\nRead\ a\ line\ of\ text\ from\ standard\ input\ (the\ text\ terminal),\nand\ return\ it\ as\ a\ set\ of\ words.\n\n@return\ \ A\ set\ of\ Strings,\ where\ each\ String\ is\ one\ of\ the\ \nwords\ typed\ by\ the\ user\n\n
+numComments=2

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cell()
+comment0.text=\n\ Set\ the\ initial\ state\ to\ be\ DEAD.\n
+comment1.params=initialState
+comment1.target=Cell(int)
+comment1.text=\n\ Set\ the\ initial\ state.\n\ @param\ initialState\ The\ initial\ state\n
+comment2.params=
+comment2.target=int\ getNextState()
+comment2.text=\n\ Determine\ this\ cell's\ next\ state,\ based\ on\ the\n\ state\ of\ its\ neighbors.\n\ This\ is\ an\ implementation\ of\ the\ rules\ for\ Brian's\ Brain.\n\ @return\ The\ next\ state.\n
+comment3.params=neighborList
+comment3.target=void\ setNeighbors(java.util.ArrayList)
+comment3.text=\n\ Receive\ the\ list\ of\ neighboring\ cells\ and\ take\n\ a\ copy.\n\ @param\ neighborList\ Neighboring\ cells.\n
+comment4.params=
+comment4.target=int\ getState()
+comment4.text=\n\ Get\ the\ state\ of\ this\ cell.\n\ @return\ The\ state.\n
+comment5.params=state
+comment5.target=void\ setState(int)
+comment5.text=\n\ Set\ the\ state\ of\ this\ cell.\n\ @param\ The\ state.\n
+numComments=6

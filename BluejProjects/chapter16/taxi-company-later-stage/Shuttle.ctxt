@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=company\ location
+comment0.target=Shuttle(TaxiCompany,\ Location)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Shuttle\n\ @param\ company\ The\ taxi\ company.\ Must\ not\ be\ null.\n\ @param\ location\ The\ vehicle's\ starting\ point.\ Must\ not\ be\ null.\n\ @throws\ NullPointerException\ If\ company\ or\ location\ is\ null.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Carry\ out\ a\ shuttle's\ actions.\n
+comment2.params=
+comment2.target=boolean\ isFree()
+comment2.text=\n\ Is\ the\ shuttle\ free?\n\ @return\ Whether\ or\ not\ this\ vehicle\ is\ free.\n
+comment3.params=location
+comment3.target=void\ setPickupLocation(Location)
+comment3.text=\n\ Receive\ a\ pickup\ location.\n\ @param\ location\ The\ pickup\ location.\n
+comment4.params=passenger
+comment4.target=void\ pickup(Passenger)
+comment4.text=\n\ Receive\ a\ passenger.\n\ Add\ their\ destination\ to\ the\ list.\n\ @param\ passenger\ The\ passenger.\n
+comment5.params=
+comment5.target=void\ chooseTargetLocation()
+comment5.text=\n\ Decide\ where\ to\ go\ next,\ based\ on\ the\ list\ of\n\ possible\ destinations.\n
+comment6.params=
+comment6.target=void\ offloadPassenger()
+comment6.text=\n\ Offload\ a\ passenger\ whose\ destination\ is\ the\n\ current\ location.\n
+numComments=7

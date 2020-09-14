@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=InputReader()
+comment0.text=\n\ Create\ a\ new\ InputReader\ that\ reads\ text\ from\ the\ text\ terminal.\n
+comment1.params=
+comment1.target=java.lang.String\ getInput()
+comment1.text=\n\ Read\ a\ line\ of\ text\ from\ standard\ input\ (the\ text\ terminal),\n\ and\ return\ it\ as\ a\ String.\n\n\ @return\ \ A\ String\ typed\ by\ the\ user.\n
+numComments=2

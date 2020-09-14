@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CommandWords()
+comment0.text=\r\n\ Constructor\ -\ initialise\ the\ command\ words.\r\n
+comment1.params=commandWord
+comment1.target=CommandWord\ getCommandWord(java.lang.String)
+comment1.text=\r\n\ Find\ the\ CommandWord\ associated\ with\ a\ command\ word.\r\n\ @param\ commandWord\ The\ word\ to\ look\ up.\r\n\ @return\ The\ CommandWord\ correspondng\ to\ commandWord,\ or\ UNKNOWN\r\n\ \ \ \ \ \ \ \ \ if\ it\ is\ not\ a\ valid\ command\ word.\r\n
+comment2.params=aString
+comment2.target=boolean\ isCommand(java.lang.String)
+comment2.text=\r\n\ Check\ whether\ a\ given\ String\ is\ a\ valid\ command\ word.\ \r\n\ @return\ true\ if\ it\ is,\ false\ if\ it\ isn't.\r\n
+comment3.params=
+comment3.target=void\ showAll()
+comment3.text=\r\n\ Print\ all\ valid\ commands\ to\ System.out.\r\n
+numComments=4

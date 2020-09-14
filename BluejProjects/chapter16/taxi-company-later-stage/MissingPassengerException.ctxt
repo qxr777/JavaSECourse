@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=vehicle
+comment0.target=MissingPassengerException(Vehicle)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ MissingPassengerException.\n\ @param\ vehicle\ The\ vehicle\ expecting\ a\ passenger.\n
+comment1.params=
+comment1.target=Vehicle\ getVehicle()
+comment1.text=\n\ @return\ The\ vehicle\ for\ which\ there\ was\ no\ passenger.\n
+numComments=2

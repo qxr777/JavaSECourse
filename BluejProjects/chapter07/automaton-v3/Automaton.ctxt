@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=numberOfCells
+comment0.target=Automaton(int)
+comment0.text=\n\ Create\ a\ 1D\ automaton\ consisting\ of\ the\ given\ number\ of\ cells.\n\ @param\ numberOfCells\ The\ number\ of\ cells\ in\ the\ automaton.\n
+comment1.params=
+comment1.target=void\ print()
+comment1.text=\n\ Print\ the\ current\ state\ of\ the\ automaton.\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\n\ Update\ the\ automaton\ to\ its\ next\ state.\n
+comment3.params=
+comment3.target=void\ reset()
+comment3.text=\n\ Reset\ the\ automaton.\n
+comment4.params=left\ center\ right
+comment4.target=int\ calculateNextState(int,\ int,\ int)
+comment4.text=\n\ Calculate\ the\ next\ state\ of\ the\ center\ cell\n\ given\ current\ left,\ center\ and\ right\ cell\n\ values.\n\ This\ implements\ Wolfram\ code\ 110.\n\ @see\ https\://en.wikipedia.org/wiki/Wolfram_code\n\ @param\ left\ The\ state\ of\ the\ cell\ to\ the\ left\ of\ center.\n\ @param\ center\ The\ state\ of\ the\ center\ cell.\n\ @param\ right\ The\ state\ of\ the\ cell\ to\ the\ right\ of\ center.\n\ @return\ The\ new\ value\ of\ center\ (0\ or\ 1).\n
+numComments=5

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Simulator()
+comment0.text=\n\ Construct\ a\ simulation\ field\ with\ default\ size.\n
+comment1.params=depth\ width
+comment1.target=Simulator(int,\ int)
+comment1.text=\n\ Create\ a\ simulation\ field\ with\ the\ given\ size.\n\ @param\ depth\ Depth\ of\ the\ field.\ Must\ be\ greater\ than\ zero.\n\ @param\ width\ Width\ of\ the\ field.\ Must\ be\ greater\ than\ zero.\n
+comment2.params=
+comment2.target=void\ runLongSimulation()
+comment2.text=\n\ Run\ the\ simulation\ from\ its\ current\ state\ for\ a\ reasonably\ long\ \n\ period\ (4000\ steps).\n
+comment3.params=numSteps
+comment3.target=void\ simulate(int)
+comment3.text=\n\ Run\ the\ simulation\ for\ the\ given\ number\ of\ steps.\n\ Stop\ before\ the\ given\ number\ of\ steps\ if\ it\ ceases\ to\ be\ viable.\n\ @param\ numSteps\ The\ number\ of\ steps\ to\ run\ for.\n
+comment4.params=
+comment4.target=void\ simulateOneStep()
+comment4.text=\n\ Run\ the\ simulation\ from\ its\ current\ state\ for\ a\ single\ step.\ Iterate\n\ over\ the\ whole\ field\ updating\ the\ state\ of\ each\ fox\ and\ rabbit.\n
+comment5.params=
+comment5.target=void\ reset()
+comment5.text=\n\ Reset\ the\ simulation\ to\ a\ starting\ position.\n
+comment6.params=
+comment6.target=void\ populate()
+comment6.text=\n\ Randomly\ populate\ the\ field\ with\ foxes\ and\ rabbits.\n
+comment7.params=millisec
+comment7.target=void\ delay(int)
+comment7.text=\n\ Pause\ for\ a\ given\ time.\n\ @param\ millisec\ \ The\ time\ to\ pause\ for,\ in\ milliseconds\n
+numComments=8

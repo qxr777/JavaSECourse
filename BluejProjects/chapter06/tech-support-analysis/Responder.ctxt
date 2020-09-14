@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Responder()
+comment0.text=\n\ Construct\ a\ Responder\n
+comment1.params=words
+comment1.target=java.lang.String\ generateResponse(java.util.HashSet)
+comment1.text=\n\ Generate\ a\ response\ from\ a\ given\ set\ of\ input\ words.\n\ \n\ @param\ words\ \ A\ set\ of\ words\ entered\ by\ the\ user\n\ @return\ \ \ \ \ \ \ A\ string\ that\ should\ be\ displayed\ as\ the\ response\n
+comment2.params=
+comment2.target=void\ fillResponseMap()
+comment2.text=\n\ Enter\ all\ the\ known\ keywords\ and\ their\ associated\ responses\n\ into\ our\ response\ map.\n
+comment3.params=
+comment3.target=void\ fillDefaultResponses()
+comment3.text=\n\ Build\ up\ a\ list\ of\ default\ responses\ from\ which\ we\ can\ pick\ one\n\ if\ we\ don't\ know\ what\ else\ to\ say.\n
+comment4.params=
+comment4.target=java.lang.String\ pickDefaultResponse()
+comment4.text=\n\ Randomly\ select\ and\ return\ one\ of\ the\ default\ responses.\n\ @return\ \ \ \ \ A\ random\ default\ response\n
+numComments=5

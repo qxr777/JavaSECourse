@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=imageFile
+comment0.target=OFImage\ loadImage(java.io.File)
+comment0.text=\n\ Read\ an\ image\ file\ from\ disk\ and\ return\ it\ as\ an\ image.\ This\ method\n\ can\ read\ JPG\ and\ PNG\ file\ formats.\ In\ case\ of\ any\ problem\ (e.g\ the\ file\ \n\ does\ not\ exist,\ is\ in\ an\ undecodable\ format,\ or\ any\ other\ read\ error)\ \n\ this\ method\ returns\ null.\n\ \n\ @param\ imageFile\ \ The\ image\ file\ to\ be\ loaded.\n\ @return\ \ \ \ \ \ \ \ \ \ \ The\ image\ object\ or\ null\ if\ it\ could\ not\ be\ read.\n
+comment1.params=image\ file
+comment1.target=void\ saveImage(OFImage,\ java.io.File)
+comment1.text=\n\ Write\ an\ image\ file\ to\ disk.\ The\ file\ format\ is\ JPG.\ In\ case\ of\ any\ \n\ problem\ the\ method\ just\ silently\ returns.\n\ \n\ @param\ image\ \ The\ image\ to\ be\ saved.\n\ @param\ file\ \ \ The\ file\ to\ save\ to.\n
+numComments=2

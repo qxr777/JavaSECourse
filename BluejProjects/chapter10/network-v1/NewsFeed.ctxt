@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NewsFeed()
+comment0.text=\n\ Construct\ an\ empty\ news\ feed.\n
+comment1.params=message
+comment1.target=void\ addMessagePost(MessagePost)
+comment1.text=\n\ Add\ a\ text\ post\ to\ the\ news\ feed.\n\ \n\ @param\ text\ \ The\ text\ post\ to\ be\ added.\n
+comment2.params=photo
+comment2.target=void\ addPhotoPost(PhotoPost)
+comment2.text=\n\ Add\ a\ photo\ post\ to\ the\ news\ feed.\n\ \n\ @param\ photo\ \ The\ photo\ post\ to\ be\ added.\n
+comment3.params=
+comment3.target=void\ show()
+comment3.text=\n\ Show\ the\ news\ feed.\ Currently\:\ print\ the\ news\ feed\ details\ to\ the\n\ terminal.\ (To\ do\:\ replace\ this\ later\ with\ display\ in\ web\ browser.)\n
+numComments=4

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=id\ name
+comment0.target=Product(int,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Product.\n\ The\ initial\ stock\ quantity\ is\ zero.\n\ @param\ id\ The\ product's\ identifying\ number.\n\ @param\ name\ The\ product's\ name.\n
+comment1.params=
+comment1.target=int\ getID()
+comment1.text=\n\ @return\ The\ product's\ id.\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ @return\ The\ product's\ name.\n
+comment3.params=
+comment3.target=int\ getQuantity()
+comment3.text=\n\ @return\ The\ quantity\ in\ stock.\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ @return\ The\ id,\ name\ and\ quantity\ in\ stock.\n
+comment5.params=amount
+comment5.target=void\ increaseQuantity(int)
+comment5.text=\n\ Restock\ with\ the\ given\ amount\ of\ this\ product.\n\ The\ current\ quantity\ is\ incremented\ by\ the\ given\ amount.\n\ @param\ amount\ The\ number\ of\ new\ items\ added\ to\ the\ stock.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ This\ must\ be\ greater\ than\ zero.\n
+comment6.params=
+comment6.target=void\ sellOne()
+comment6.text=\n\ Sell\ one\ of\ these\ products.\n\ An\ error\ is\ reported\ if\ there\ appears\ to\ be\ no\ stock.\n
+numComments=7

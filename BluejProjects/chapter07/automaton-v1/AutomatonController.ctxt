@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=numberOfCells
+comment0.target=AutomatonController(int)
+comment0.text=\n\ Create\ an\ AutomatonController.\n\ @param\ numberOfCells\ The\ number\ of\ cells\ in\ the\ automaton.\n
+comment1.params=
+comment1.target=AutomatonController()
+comment1.text=\n\ Create\ an\ AutomatonController\ with\n\ a\ default\ number\ of\ cells.\n
+comment2.params=numSteps
+comment2.target=void\ run(int)
+comment2.text=\n\ Run\ the\ automaton\ for\ the\ given\ number\ of\ steps.\n\ @param\ numSteps\ The\ number\ of\ steps.\n
+comment3.params=
+comment3.target=void\ step()
+comment3.text=\n\ Run\ the\ automaton\ for\ a\ single\ step.\n
+comment4.params=
+comment4.target=void\ reset()
+comment4.text=\n\ Reset\ the\ automaton.\n
+numComments=5

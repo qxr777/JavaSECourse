@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MusicOrganizer()
+comment0.text=\n\ Create\ a\ MusicOrganizer\n
+comment1.params=filename
+comment1.target=void\ addFile(java.lang.String)
+comment1.text=\n\ Add\ a\ file\ to\ the\ collection.\n\ @param\ filename\ The\ file\ to\ be\ added.\n
+comment2.params=
+comment2.target=int\ getNumberOfFiles()
+comment2.text=\n\ Return\ the\ number\ of\ files\ in\ the\ collection.\n\ @return\ The\ number\ of\ files\ in\ the\ collection.\n
+comment3.params=index
+comment3.target=void\ listFile(int)
+comment3.text=\n\ List\ a\ file\ from\ the\ collection.\n\ @param\ index\ The\ index\ of\ the\ file\ to\ be\ listed.\n
+comment4.params=index
+comment4.target=void\ removeFile(int)
+comment4.text=\n\ Remove\ a\ file\ from\ the\ collection.\n\ @param\ index\ The\ index\ of\ the\ file\ to\ be\ removed.\n
+comment5.params=index
+comment5.target=void\ startPlaying(int)
+comment5.text=\n\ Start\ playing\ a\ file\ in\ the\ collection.\n\ Use\ stopPlaying()\ to\ stop\ it\ playing.\n\ @param\ index\ The\ index\ of\ the\ file\ to\ be\ played.\n
+comment6.params=
+comment6.target=void\ stopPlaying()
+comment6.text=\n\ Stop\ the\ player.\n
+numComments=7

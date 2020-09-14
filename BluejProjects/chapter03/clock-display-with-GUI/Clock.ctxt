@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Clock()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Clock\n
+comment1.params=
+comment1.target=void\ start()
+comment1.text=\n\ \n
+comment2.params=
+comment2.target=void\ stop()
+comment2.text=\n\ \n
+comment3.params=
+comment3.target=void\ step()
+comment3.text=\n\ \n
+comment4.params=
+comment4.target=void\ showAbout()
+comment4.text=\n\ 'About'\ function\:\ show\ the\ 'about'\ box.\n
+comment5.params=
+comment5.target=void\ quit()
+comment5.text=\n\ Quit\ function\:\ quit\ the\ application.\n
+comment6.params=
+comment6.target=void\ makeFrame()
+comment6.text=\n\ Create\ the\ Swing\ frame\ and\ its\ content.\n
+comment7.params=frame
+comment7.target=void\ makeMenuBar(javax.swing.JFrame)
+comment7.text=\n\ Create\ the\ main\ frame's\ menu\ bar.\n\ \n\ @param\ frame\ \ \ The\ frame\ that\ the\ menu\ bar\ should\ be\ added\ to.\n
+numComments=8

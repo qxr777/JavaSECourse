@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=artist\ title\ filename
+comment0.target=Track(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Track.\n\ @param\ artist\ The\ track's\ artist.\n\ @param\ title\ The\ track's\ title.\n\ @param\ filename\ The\ track\ file.\ \n
+comment1.params=filename
+comment1.target=Track(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Track.\n\ It\ is\ assumed\ that\ the\ file\ name\ cannot\ be\n\ decoded\ to\ extract\ artist\ and\ title\ details.\n\ @param\ filename\ The\ track\ file.\ \n
+comment2.params=
+comment2.target=java.lang.String\ getArtist()
+comment2.text=\n\ Return\ the\ artist.\n\ @return\ The\ artist.\n
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment3.text=\n\ Return\ the\ title.\n\ @return\ The\ title.\n
+comment4.params=
+comment4.target=java.lang.String\ getFilename()
+comment4.text=\n\ Return\ the\ file\ name.\n\ @return\ The\ file\ name.\n
+comment5.params=
+comment5.target=java.lang.String\ getDetails()
+comment5.text=\n\ Return\ details\ of\ the\ track\:\ artist,\ title\ and\ file\ name.\n\ @return\ The\ track's\ details.\n
+comment6.params=artist\ title\ filename
+comment6.target=void\ setDetails(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment6.text=\n\ Set\ details\ of\ the\ track.\n\ @param\ artist\ The\ track's\ artist.\n\ @param\ title\ The\ track's\ title.\n\ @param\ filename\ The\ track\ file.\ \n
+numComments=7

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ImageViewer()
+comment0.text=\n\ Create\ an\ ImageViewer\ show\ it\ on\ screen.\n
+comment1.params=event
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\n\ Receive\ notification\ of\ an\ action.\n\ @param\ event\ Details\ of\ the\ action.\n
+comment2.params=
+comment2.target=void\ makeFrame()
+comment2.text=\n\ Create\ the\ Swing\ frame\ and\ its\ content.\n
+comment3.params=frame
+comment3.target=void\ makeMenuBar(javax.swing.JFrame)
+comment3.text=\n\ Create\ the\ main\ frame's\ menu\ bar.\n\ @param\ frame\ \ \ The\ frame\ that\ the\ menu\ bar\ should\ be\ added\ to.\n
+numComments=4

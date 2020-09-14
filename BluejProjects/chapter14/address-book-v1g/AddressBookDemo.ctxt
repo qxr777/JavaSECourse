@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AddressBookDemo()
+comment0.text=\n\ Setup\ an\ AddressBook\ with\ sample\ data.\n\ The\ address\ book\ is\ passed\ to\ a\ GUI\ to\ provide\n\ a\ view\ of\ the\ data.\n
+comment1.params=
+comment1.target=void\ showInterface()
+comment1.text=\n\ Allow\ the\ user\ to\ interact\ with\ the\ address\ book.\n
+comment2.params=
+comment2.target=AddressBook\ getBook()
+comment2.text=\n\ @return\ The\ sample\ address\ book.\n
+numComments=3

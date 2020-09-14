@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=animal\ spotter\ count\ area\ period
+comment0.target=Sighting(java.lang.String,\ int,\ int,\ int,\ int)
+comment0.text=\n\ Create\ a\ record\ of\ a\ sighting\ of\ a\ particular\ type\ of\ animal.\n\ @param\ animal\ The\ animal\ spotted.\n\ @param\ spotter\ The\ ID\ of\ the\ spotter.\n\ @param\ count\ How\ many\ were\ seen\ (>\=\ 0).\n\ @param\ area\ The\ ID\ of\ the\ area\ in\ which\ they\ were\ seen.\n\ @param\ period\ The\ reporting\ period.\n
+comment1.params=
+comment1.target=java.lang.String\ getAnimal()
+comment1.text=\n\ Return\ the\ type\ of\ animal\ spotted.\n\ @return\ The\ animal\ type.\n
+comment2.params=
+comment2.target=int\ getSpotter()
+comment2.text=\n\ Return\ the\ ID\ of\ the\ spotter.\n\ @return\ The\ spotter's\ ID.\n
+comment3.params=
+comment3.target=int\ getCount()
+comment3.text=\n\ Return\ how\ many\ were\ spotted.\n\ @return\ The\ number\ seen.\n
+comment4.params=
+comment4.target=int\ getArea()
+comment4.text=\n\ Return\ the\ ID\ of\ the\ area\ in\ which\ they\ were\ seen.\n\ @return\ Where\ they\ were\ seen.\n
+comment5.params=
+comment5.target=int\ getPeriod()
+comment5.text=\n\ Return\ the\ period\ in\ which\ they\ were\ seen.\n\ @return\ When\ they\ were\ seen.\n
+comment6.params=
+comment6.target=java.lang.String\ getDetails()
+comment6.text=\n\ Return\ a\ string\ containing\ details\ of\ the\ animal,\ the\ number\ seen,\n\ where\ they\ were\ seen,\ who\ spotted\ them\ and\ when.\n\ @return\ A\ string\ giving\ details\ of\ the\ sighting.\n
+numComments=7

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StockDemo()
+comment0.text=\n\ Create\ a\ StockManager\ and\ populate\ it\ with\ a\ few\n\ sample\ products.\n
+comment1.params=
+comment1.target=void\ demo()
+comment1.text=\n\ Provide\ a\ very\ simple\ demonstration\ of\ how\ a\ StockManager\n\ might\ be\ used.\ Details\ of\ one\ product\ are\ shown,\ the\n\ product\ is\ restocked,\ and\ then\ the\ details\ are\ shown\ again.\n
+comment2.params=id
+comment2.target=void\ showDetails(int)
+comment2.text=\n\ Show\ details\ of\ the\ given\ product.\ If\ found,\n\ its\ name\ and\ stock\ quantity\ will\ be\ shown.\n\ @param\ id\ The\ ID\ of\ the\ product\ to\ look\ for.\n
+comment3.params=id
+comment3.target=void\ sellProduct(int)
+comment3.text=\n\ Sell\ one\ of\ the\ given\ item.\n\ Show\ the\ before\ and\ after\ status\ of\ the\ product.\n\ @param\ id\ The\ ID\ of\ the\ product\ being\ sold.\n
+comment4.params=id
+comment4.target=Product\ getProduct(int)
+comment4.text=\n\ Get\ the\ product\ with\ the\ given\ id\ from\ the\ manager.\n\ An\ error\ message\ is\ printed\ if\ there\ is\ no\ match.\n\ @param\ id\ The\ ID\ of\ the\ product.\n\ @return\ The\ Product,\ or\ null\ if\ no\ matching\ one\ is\ found.\n
+comment5.params=
+comment5.target=StockManager\ getManager()
+comment5.text=\n\ @return\ The\ stock\ manager.\n
+numComments=6

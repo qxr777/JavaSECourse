@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AddressBookDemo()
+comment0.text=\n\ Setup\ an\ AddressBook\ with\ sample\ data.\n\ The\ address\ book\ can\ be\ retrieved\ using\ the\ getBook\ method.\ \n
+comment1.params=
+comment1.target=AddressBook\ getBook()
+comment1.text=\n\ @return\ The\ sample\ address\ book.\n
+numComments=2

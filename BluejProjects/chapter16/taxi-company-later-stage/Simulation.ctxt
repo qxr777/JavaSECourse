@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Simulation()
+comment0.text=\n\ Create\ the\ initial\ set\ of\ actors\ for\ the\ simulation.\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\n\ Run\ the\ simulation\ for\ a\ fixed\ number\ of\ steps.\n\ Pause\ after\ each\ step\ to\ allow\ the\ GUI\ to\ keep\ up.\n
+comment2.params=
+comment2.target=void\ step()
+comment2.text=\n\ Take\ a\ single\ step\ of\ the\ simulation.\n
+comment3.params=milliseconds
+comment3.target=void\ wait(int)
+comment3.text=\n\ Wait\ for\ a\ specified\ number\ of\ milliseconds\ before\ finishing.\n\ This\ provides\ an\ easy\ way\ to\ cause\ a\ small\ delay.\n\ @param\ milliseconds\ The\ number\ of\ milliseconds\ to\ wait.\n
+numComments=4

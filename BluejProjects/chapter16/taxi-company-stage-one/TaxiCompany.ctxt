@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TaxiCompany()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ TaxiCompany\n
+comment1.params=passenger
+comment1.target=boolean\ requestPickup(Passenger)
+comment1.text=\n\ Request\ a\ pickup\ for\ the\ given\ passenger.\n\ @param\ passenger\ The\ passenger\ requesting\ a\ pickup.\n\ @return\ Whether\ a\ free\ vehicle\ is\ available.\n
+comment2.params=vehicle
+comment2.target=void\ arrivedAtPickup(Vehicle)
+comment2.text=\n\ A\ vehicle\ has\ arrived\ at\ a\ pickup\ point.\n\ @param\ vehicle\ The\ vehicle\ at\ the\ pickup\ point.\n\ @throws\ MissingPassengerException\ If\ there\ is\ no\ passenger\ waiting.\n
+comment3.params=vehicle\ passenger
+comment3.target=void\ arrivedAtDestination(Vehicle,\ Passenger)
+comment3.text=\n\ A\ vehicle\ has\ arrived\ at\ a\ passenger's\ destination.\n\ @param\ vehicle\ The\ vehicle\ at\ the\ destination.\n\ @param\ passenger\ The\ passenger\ being\ dropped\ off.\n
+comment4.params=
+comment4.target=java.util.List\ getVehicles()
+comment4.text=\n\ @return\ The\ list\ of\ vehicles.\n
+comment5.params=
+comment5.target=Vehicle\ scheduleVehicle()
+comment5.text=\n\ Find\ a\ free\ vehicle,\ if\ any.\n\ @return\ A\ free\ vehicle,\ or\ null\ if\ there\ is\ none.\n
+numComments=6

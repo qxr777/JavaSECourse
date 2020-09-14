@@ -1,0 +1,21 @@
+# Fields: spotter,animal,count,area,period
+0,Mountain Gorilla,3,1,0
+0,Buffalo,10,1,0,
+0,Elephant,0,1,0
+1,Mountain Gorilla,1,2,0
+2,Mountain Gorilla,3,3,0
+3,Mountain Gorilla,0,2,0
+3,Buffalo,2,1,0
+3,Topi,25,1,0
+
+0,Mountain Gorilla,4,1,1
+0,Buffalo,16,1,1,
+1,Topi,20,1,1,
+3,Buffalo,0,2,1
+3,Topi,30,2,1
+
+0,Mountain Gorilla,1,1,2
+1,Mountain Gorilla,2,2,2
+2,Mountain Gorilla,0,3,2
+3,Topi,30,2,2
+3,Elephant,24,2,2

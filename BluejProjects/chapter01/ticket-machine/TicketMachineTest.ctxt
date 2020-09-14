@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TicketMachineTest
+comment0.text=\n\ The\ test\ class\ TicketMachineTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=TicketMachineTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ TicketMachineTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+numComments=4

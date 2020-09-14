@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=city
+comment0.target=CityGUI(City)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ CityGUI\n\ @param\ city\ The\ city\ whose\ state\ is\ to\ be\ displayed.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Display\ the\ current\ state\ of\ the\ city.\n
+numComments=2

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Demo()
+comment0.text=\n\ Create\ some\ sample\ objects\ for\ the\ demo.\n
+comment1.params=
+comment1.target=void\ pickupTest()
+comment1.text=\n\ Request\ a\ pickup\ for\ a\ new\ passenger.\n\ The\ request\ will\ fail\ in\ this\ version.\n
+numComments=2

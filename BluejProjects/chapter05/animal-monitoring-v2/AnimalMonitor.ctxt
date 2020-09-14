@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AnimalMonitor()
+comment0.text=\n\ Create\ an\ AnimalMonitor.\n
+comment1.params=filename
+comment1.target=void\ addSightings(java.lang.String)
+comment1.text=\n\ Add\ the\ sightings\ recorded\ in\ the\ given\ filename\ to\ the\ current\ list.\n\ @param\ filename\ A\ CSV\ file\ of\ Sighting\ records.\n
+comment2.params=
+comment2.target=void\ printList()
+comment2.text=\n\ Print\ details\ of\ all\ the\ sightings.\n
+comment3.params=animal
+comment3.target=void\ printSightingsOf(java.lang.String)
+comment3.text=\n\ Print\ details\ of\ all\ the\ sightings\ of\ the\ given\ animal.\n\ @param\ animal\ The\ type\ of\ animal.\n
+comment4.params=spotter
+comment4.target=void\ printSightingsBy(int)
+comment4.text=\n\ Print\ all\ the\ sightings\ by\ the\ given\ spotter.\n\ @param\ spotter\ The\ ID\ of\ the\ spotter.\n
+comment5.params=animal
+comment5.target=int\ getCount(java.lang.String)
+comment5.text=\n\ Return\ a\ count\ of\ the\ number\ of\ sightings\ of\ the\ given\ animal.\n\ @param\ animal\ The\ type\ of\ animal.\n\ @return\ The\ count\ of\ sightings\ of\ the\ given\ animal.\n
+numComments=6

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TrackReader()
+comment0.text=\n\ Create\ the\ track\ reader,\ ready\ to\ read\ tracks\ from\ the\ music\ library\ folder.\n
+comment1.params=folder\ suffix
+comment1.target=java.util.ArrayList\ readTracks(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Read\ music\ files\ from\ the\ given\ library\ folder\n\ with\ the\ given\ suffix.\n\ @param\ folder\ The\ folder\ to\ look\ for\ files.\n\ @param\ suffix\ The\ suffix\ of\ the\ audio\ type.\n
+comment2.params=dir\ name
+comment2.target=boolean\ accept(java.io.File,\ java.lang.String)
+comment2.text=\n\ Accept\ files\ with\ matching\ suffix.\n\ @param\ dir\ The\ directory\ containing\ the\ file.\n\ @param\ name\ The\ name\ of\ the\ file.\n\ @return\ true\ if\ the\ name\ ends\ with\ the\ suffix.\n
+comment3.params=file
+comment3.target=Track\ decodeDetails(java.io.File)
+comment3.text=\n\ Try\ to\ decode\ details\ of\ the\ artist\ and\ the\ title\n\ from\ the\ file\ name.\n\ It\ is\ assumed\ that\ the\ details\ are\ in\ the\ form\:\n\ \ \ \ \ artist-title.mp3\n\ @param\ file\ The\ track\ file.\n\ @return\ A\ Track\ containing\ the\ details.\n
+numComments=4

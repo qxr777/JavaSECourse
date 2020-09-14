@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=company
+comment0.target=PassengerSource(TaxiCompany)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ PassengerSource.\n\ @param\ company\ The\ company\ to\ be\ used.\ Must\ not\ be\ null.\n\ @throws\ NullPointerException\ if\ company\ is\ null.\n
+comment1.params=
+comment1.target=boolean\ requestPickup()
+comment1.text=\n\ Have\ the\ source\ generate\ a\ new\ passenger\ and\n\ request\ a\ pickup\ from\ the\ company.\n\ @return\ true\ If\ the\ request\ succeeds,\ false\ otherwise.\n
+comment2.params=
+comment2.target=Passenger\ createPassenger()
+comment2.text=\n\ Create\ a\ new\ passenger.\n\ @return\ The\ created\ passenger.\n
+numComments=3

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=book
+comment0.target=AddressBookFileHandler(AddressBook)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ FileHandler.\n\ @param\ book\ The\ address\ book\ to\ use.\n
+comment1.params=keyPrefix
+comment1.target=void\ saveSearchResults(java.lang.String)
+comment1.text=\n\ Save\ the\ results\ of\ an\ address-book\ search\ to\n\ the\ file\ "results.txt"\ in\ the\ project\ folder.\n\ @param\ keyPrefix\ The\ key\ prefix\ to\ search\ on.\n
+comment2.params=
+comment2.target=void\ showSearchResults()
+comment2.text=\n\ Show\ the\ results\ from\ the\ most-recent\ call\ to\n\ saveSearchResults.\ As\ output\ is\ to\ the\ console,\ any\n\ problems\ are\ reported\ directly\ by\ this\ method.\n
+comment3.params=filename
+comment3.target=void\ addEntriesFromFile(java.lang.String)
+comment3.text=\n\ Add\ further\ entries\ to\ the\ address\ book,\ from\ a\ text\ file.\n\ The\ file\ is\ assumed\ to\ contain\ one\ element\ per\ line,\n\ plus\ a\ blank\ line,\ for\ each\ entry\:\n\ \ \ \ \ name\ \\n\ phone\ \\n\ address\ \\n\ \\n\n\ A\ line\ may\ be\ blank\ if\ that\ part\ of\ the\ details\ is\ missing.\n\ @param\ filename\ The\ text\ file\ containing\ the\ details.\n\ @throws\ IOException\ On\ input\ failure.\n
+comment4.params=sourceFile
+comment4.target=AddressBook\ readFromFile(java.lang.String)
+comment4.text=\n\ Read\ the\ binary\ version\ of\ an\ address\ book\ from\ the\ given\ file.\n\ If\ the\ file\ name\ is\ not\ an\ absolute\ path,\ then\ it\ is\ assumed\n\ to\ be\ relative\ to\ the\ current\ project\ folder.\n\ @param\ sourceFile\ The\ file\ from\ where\ the\ details\ are\ to\ be\ read.\n\ @return\ The\ address\ book\ object.\n\ @throws\ IOException\ If\ the\ reading\ process\ fails\ for\ any\ reason.\n
+comment5.params=destinationFile
+comment5.target=void\ saveToFile(java.lang.String)
+comment5.text=\n\ Save\ a\ binary\ version\ of\ the\ address\ book\ to\ the\ given\ file.\n\ If\ the\ file\ name\ is\ not\ an\ absolute\ path,\ then\ it\ is\ assumed\n\ to\ be\ relative\ to\ the\ current\ project\ folder.\n\ @param\ destinationFile\ The\ file\ where\ the\ details\ are\ to\ be\ saved.\n\ @throws\ IOException\ If\ the\ saving\ process\ fails\ for\ any\ reason.\n
+numComments=6

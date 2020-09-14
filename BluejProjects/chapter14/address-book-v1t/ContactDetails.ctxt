@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=name\ phone\ address
+comment0.target=ContactDetails(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\n\ Set\ up\ the\ contact\ details.\ All\ details\ are\ trimmed\ to\ remove\n\ trailing\ white\ space.\n\ @param\ name\ The\ name.\n\ @param\ phone\ The\ phone\ number.\n\ @param\ address\ The\ address.\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\n\ @return\ The\ name.\n
+comment2.params=
+comment2.target=java.lang.String\ getPhone()
+comment2.text=\n\ @return\ The\ telephone\ number.\n
+comment3.params=
+comment3.target=java.lang.String\ getAddress()
+comment3.text=\n\ @return\ The\ address.\n
+comment4.params=other
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\n\ Test\ for\ content\ equality\ between\ two\ objects.\n\ @param\ other\ The\ object\ to\ compare\ to\ this\ one.\n\ @return\ true\ if\ the\ argument\ object\ is\ a\ set\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ of\ contact\ details\ with\ matching\ attributes.\n
+comment5.params=otherDetails
+comment5.target=int\ compareTo(ContactDetails)
+comment5.text=\n\ Compare\ these\ details\ against\ another\ set,\ for\ the\ purpose\n\ of\ sorting.\ The\ fields\ are\ sorted\ by\ name,\ phone,\ and\ address.\n\ @param\ otherDetails\ The\ details\ to\ be\ compared\ against.\n\ @return\ a\ negative\ integer\ if\ this\ comes\ before\ the\ parameter,\n\ \ \ \ \ \ \ \ \ zero\ if\ they\ are\ equal\ and\ a\ positive\ integer\ if\ this\n\ \ \ \ \ \ \ \ \ comes\ after\ the\ second.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ @return\ A\ multi-line\ string\ containing\ the\ name,\ phone,\ and\ address.\n
+comment7.params=
+comment7.target=int\ hashCode()
+comment7.text=\n\ Compute\ a\ hashcode\ using\ the\ rules\ to\ be\ found\ in\n\ "Effective\ Java",\ by\ Joshua\ Bloch.\n\ @return\ A\ hashcode\ for\ ContactDetails.\n
+numComments=8

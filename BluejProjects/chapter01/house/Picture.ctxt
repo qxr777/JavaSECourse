@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Picture
+comment0.text=\n\ This\ class\ represents\ a\ simple\ picture.\ You\ can\ draw\ the\ picture\ using\n\ the\ draw\ method.\ But\ wait,\ there's\ more\:\ being\ an\ electronic\ picture,\ it\n\ can\ be\ changed.\ You\ can\ set\ it\ to\ black-and-white\ display\ and\ back\ to\n\ colors\ (only\ after\ it's\ been\ drawn,\ of\ course).\n\n\ This\ class\ was\ written\ as\ an\ early\ example\ for\ teaching\ Java\ with\ BlueJ.\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @version\ 2016.02.29\n
+comment1.params=
+comment1.target=Picture()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Picture\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\n\ Draw\ this\ picture.\n
+comment3.params=
+comment3.target=void\ setBlackAndWhite()
+comment3.text=\n\ Change\ this\ picture\ to\ black/white\ display\n
+comment4.params=
+comment4.target=void\ setColor()
+comment4.text=\n\ Change\ this\ picture\ to\ use\ color\ display\n
+numComments=5

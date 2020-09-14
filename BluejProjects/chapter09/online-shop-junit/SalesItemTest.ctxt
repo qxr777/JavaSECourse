@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SalesItemTest()
+comment0.text=\n\ Default\ constructor\ for\ test\ class\ SalesItemTest\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ testAddComment()
+comment3.text=\n\ Test\ that\ a\ comment\ can\ be\ added,\ and\ that\ the\ comment\ count\ is\ correct\ afterwards.\n
+comment4.params=
+comment4.target=void\ testIllegalRating()
+comment4.text=\n\ Test\ that\ a\ comment\ using\ an\ illegal\ rating\ value\ is\ rejected.\n
+comment5.params=
+comment5.target=void\ testInit()
+comment5.text=\n\ Test\ that\ a\ sales\ item\ is\ correctly\ initialised\ (name\ and\ price).\n
+comment6.params=
+comment6.target=void\ addComment()
+numComments=7

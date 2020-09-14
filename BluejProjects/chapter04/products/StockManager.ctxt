@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StockManager()
+comment0.text=\n\ Initialise\ the\ stock\ manager.\n
+comment1.params=item
+comment1.target=void\ addProduct(Product)
+comment1.text=\n\ Add\ a\ product\ to\ the\ list.\n\ @param\ item\ The\ item\ to\ be\ added.\n
+comment2.params=id\ amount
+comment2.target=void\ delivery(int,\ int)
+comment2.text=\n\ Receive\ a\ delivery\ of\ a\ particular\ product.\n\ Increase\ the\ quantity\ of\ the\ product\ by\ the\ given\ amount.\n\ @param\ id\ The\ ID\ of\ the\ product.\n\ @param\ amount\ The\ amount\ to\ increase\ the\ quantity\ by.\n
+comment3.params=id
+comment3.target=Product\ findProduct(int)
+comment3.text=\n\ Try\ to\ find\ a\ product\ in\ the\ stock\ with\ the\ given\ id.\n\ @return\ The\ identified\ product,\ or\ null\ if\ there\ is\ none\n\ \ \ \ \ \ \ \ \ with\ a\ matching\ ID.\n
+comment4.params=id
+comment4.target=int\ numberInStock(int)
+comment4.text=\n\ Locate\ a\ product\ with\ the\ given\ ID,\ and\ return\ how\n\ many\ of\ this\ item\ are\ in\ stock.\ If\ the\ ID\ does\ not\n\ match\ any\ product,\ return\ zero.\n\ @param\ id\ The\ ID\ of\ the\ product.\n\ @return\ The\ quantity\ of\ the\ given\ product\ in\ stock.\n
+comment5.params=
+comment5.target=void\ printProductDetails()
+comment5.text=\n\ Print\ details\ of\ all\ the\ products.\n
+numComments=6

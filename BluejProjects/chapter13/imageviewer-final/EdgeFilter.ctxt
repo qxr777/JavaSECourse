@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=EdgeFilter(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ EdgeFilter.\n\ @param\ name\ The\ name\ of\ the\ filter.\n
+comment1.params=image
+comment1.target=void\ apply(OFImage)
+comment1.text=\n\ Apply\ this\ filter\ to\ an\ image.\n\ \n\ @param\ \ image\ \ The\ image\ to\ be\ changed\ by\ this\ filter.\n
+comment2.params=xpos\ ypos
+comment2.target=java.awt.Color\ edge(int,\ int)
+comment2.text=\n\ Return\ a\ new\ color\ that\ is\ the\ smoothed\ color\ of\ a\ given\n\ position.\ The\ "smoothed\ color"\ is\ the\ color\ value\ that\ is\ the\n\ average\ of\ this\ pixel\ and\ all\ the\ adjacent\ pixels.\n\ @param\ xpos\ The\ x\ position\ of\ the\ pixel.\n\ @param\ ypos\ The\ y\ position\ of\ the\ pixel.\n\ @return\ The\ smoothed\ color.\n
+comment3.params=pixels
+comment3.target=int\ diffRed(java.util.List)
+comment3.text=\n\ @param\ pixels\ The\ list\ of\ pixels\ to\ be\ averaged.\n\ @return\ The\ average\ of\ all\ the\ red\ values\ in\ the\ given\ list\ of\ pixels.\n
+comment4.params=pixels
+comment4.target=int\ diffGreen(java.util.List)
+comment4.text=\n\ @param\ pixels\ The\ list\ of\ pixels\ to\ be\ averaged.\n\ @return\ The\ average\ of\ all\ the\ green\ values\ in\ the\ given\ list\ of\ pixels.\n
+comment5.params=pixels
+comment5.target=int\ diffBlue(java.util.List)
+comment5.text=\n\ @param\ pixels\ The\ list\ of\ pixels\ to\ be\ averaged.\n\ @return\ The\ average\ of\ all\ the\ blue\ values\ in\ the\ given\ list\ of\ pixels.\n
+numComments=6

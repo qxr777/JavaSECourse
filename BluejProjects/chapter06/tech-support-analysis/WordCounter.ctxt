@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WordCounter()
+comment0.text=\n\ Create\ a\ WordCounter\n
+comment1.params=input
+comment1.target=void\ addWords(java.util.HashSet)
+comment1.text=\n\ Update\ the\ usage\ count\ of\ all\ words\ in\ input.\n\ @param\ input\ A\ set\ of\ words\ entered\ by\ the\ user.\n
+numComments=2

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=description
+comment0.target=Room(java.lang.String)
+comment0.text=\r\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\r\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\r\n\ @param\ description\ The\ room's\ description.\r\n
+comment1.params=direction\ neighbor
+comment1.target=void\ setExit(java.lang.String,\ Room)
+comment1.text=\r\n\ Define\ an\ exit\ from\ this\ room.\r\n\ @param\ direction\ The\ direction\ of\ the\ exit.\r\n\ @param\ neighbor\ \ The\ room\ to\ which\ the\ exit\ leads.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getShortDescription()
+comment2.text=\r\n\ @return\ The\ short\ description\ of\ the\ room\r\n\ (the\ one\ that\ was\ defined\ in\ the\ constructor).\r\n
+comment3.params=
+comment3.target=java.lang.String\ getLongDescription()
+comment3.text=\r\n\ Return\ a\ description\ of\ the\ room\ in\ the\ form\:\r\n\ \ \ \ \ You\ are\ in\ the\ kitchen.\r\n\ \ \ \ \ Exits\:\ north\ west\r\n\ @return\ A\ long\ description\ of\ this\ room\r\n
+comment4.params=
+comment4.target=java.lang.String\ getExitString()
+comment4.text=\r\n\ Return\ a\ string\ describing\ the\ room's\ exits,\ for\ example\r\n\ "Exits\:\ north\ west".\r\n\ @return\ Details\ of\ the\ room's\ exits.\r\n
+comment5.params=direction
+comment5.target=Room\ getExit(java.lang.String)
+comment5.text=\r\n\ Return\ the\ room\ that\ is\ reached\ if\ we\ go\ from\ this\ room\ in\ direction\r\n\ "direction".\ If\ there\ is\ no\ room\ in\ that\ direction,\ return\ null.\r\n\ @param\ direction\ The\ exit's\ direction.\r\n\ @return\ The\ room\ in\ the\ given\ direction.\r\n
+numComments=6

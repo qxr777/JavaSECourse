@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=logline
+comment0.target=LogEntry(java.lang.String)
+comment0.text=\n\ Decompose\ a\ log\ line\ so\ that\ the\ individual\ fields\n\ are\ available.\n\ @param\ logline\ A\ single\ line\ from\ the\ log.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ This\ should\ be\ in\ the\ format\:\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ year\ month\ day\ hour\ minute\ etc.\n
+comment1.params=year\ month\ day\ hour\ minute
+comment1.target=LogEntry(int,\ int,\ int,\ int,\ int)
+comment1.text=\n\ Create\ a\ LogEntry\ from\ the\ individual\ components.\n\ @param\ year\ The\ year\n\ @param\ month\ The\ month\ (1-12)\n\ @param\ day\ The\ day\ (1-31)\n\ @param\ hour\ The\ hour\ (0-23)\n\ @param\ minute\ The\ minute\ (0-59)\n
+comment2.params=
+comment2.target=int\ getHour()
+comment2.text=\n\ Return\ the\ hour.\n\ @return\ The\ hour\ field\ from\ the\ log\ line.\n
+comment3.params=
+comment3.target=int\ getMinute()
+comment3.text=\n\ Return\ the\ minute.\n\ @return\ The\ minute\ field\ from\ the\ log\ line.\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Create\ a\ string\ representation\ of\ the\ data.\n\ This\ is\ not\ necessarily\ identical\ with\ the\n\ text\ of\ the\ original\ log\ line.\n\ @return\ A\ string\ representing\ the\ data\ of\ this\ entry.\n
+comment5.params=otherEntry
+comment5.target=int\ compareTo(LogEntry)
+comment5.text=\n\ Compare\ the\ date/time\ combination\ of\ this\ log\ entry\n\ with\ another.\n\ @param\ otherEntry\ The\ other\ entry\ to\ compare\ against.\n\ @return\ A\ negative\ value\ if\ this\ entry\ comes\ before\ the\ other.\n\ \ \ \ \ \ \ \ \ A\ positive\ value\ if\ this\ entry\ comes\ after\ the\ other.\n\ \ \ \ \ \ \ \ \ Zero\ if\ the\ entries\ are\ the\ same.\n
+comment6.params=
+comment6.target=java.util.Calendar\ getWhen()
+comment6.text=\n\ Return\ the\ Calendar\ object\ representing\ this\ event.\n\ @return\ The\ Calendar\ for\ this\ event.\n
+comment7.params=
+comment7.target=void\ setWhen()
+comment7.text=\n\ Create\ an\ equivalent\ Calendar\ object\ from\ the\ data\ values.\n
+numComments=8

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=fullName\ studentID
+comment0.target=Student(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Create\ a\ new\ student\ with\ a\ given\ name\ and\ ID\ number.\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\n\ Return\ the\ full\ name\ of\ this\ student.\n
+comment2.params=replacementName
+comment2.target=void\ changeName(java.lang.String)
+comment2.text=\n\ Set\ a\ new\ name\ for\ this\ student.\n
+comment3.params=
+comment3.target=java.lang.String\ getStudentID()
+comment3.text=\n\ Return\ the\ student\ ID\ of\ this\ student.\n
+comment4.params=additionalPoints
+comment4.target=void\ addCredits(int)
+comment4.text=\n\ Add\ some\ credit\ points\ to\ the\ student's\ accumulated\ credits.\n
+comment5.params=
+comment5.target=int\ getCredits()
+comment5.text=\n\ Return\ the\ number\ of\ credit\ points\ this\ student\ has\ accumulated.\n
+comment6.params=
+comment6.target=java.lang.String\ getLoginName()
+comment6.text=\n\ Return\ the\ login\ name\ of\ this\ student.\ The\ login\ name\ is\ a\ combination\n\ of\ the\ first\ four\ characters\ of\ the\ student's\ name\ and\ the\ first\ three\n\ characters\ of\ the\ student's\ ID\ number.\n
+comment7.params=
+comment7.target=void\ print()
+comment7.text=\n\ Print\ the\ student's\ name\ and\ ID\ number\ to\ the\ output\ terminal.\n
+numComments=8

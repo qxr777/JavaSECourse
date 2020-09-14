@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SightingReader()
+comment0.text=\n\ Create\ a\ SightingReader.\n
+comment1.params=filename
+comment1.target=java.util.ArrayList\ getSightings(java.lang.String)
+comment1.text=\n\ Read\ sightings\ in\ CSV\ format\ from\ the\ given\ file.\n\ Return\ an\ ArrayList\ of\ Sighting\ objects\ created\ from\n\ the\ information\ in\ the\ file.\n\ \n\ @param\ filename\ The\ file\ to\ be\ read\ -\ should\ be\ in\ CSV\ format.\n\ @return\ A\ list\ of\ Sightings.\n
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=numberOfCells
+comment0.target=Automaton(int)
+comment0.text=\n\ Create\ a\ 1D\ automaton\ consisting\ of\ the\ given\ number\ of\ cells.\n\ @param\ numberOfCells\ The\ number\ of\ cells\ in\ the\ automaton.\n
+comment1.params=
+comment1.target=void\ print()
+comment1.text=\n\ Print\ the\ current\ state\ of\ the\ automaton.\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\n\ Update\ the\ automaton\ to\ its\ next\ state.\n
+comment3.params=
+comment3.target=void\ reset()
+comment3.text=\n\ Reset\ the\ automaton.\n
+numComments=4

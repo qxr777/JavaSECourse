@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=city\ company
+comment0.target=PassengerSource(City,\ TaxiCompany)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ PassengerSource.\n\ @param\ city\ The\ city.\ Must\ not\ be\ null.\n\ @param\ company\ The\ company\ to\ be\ used.\ Must\ not\ be\ null.\n\ @throws\ NullPointerException\ if\ city\ or\ company\ is\ null.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Randomly\ generate\ a\ new\ passenger.\n\ Keep\ a\ count\ of\ missed\ pickups.\n
+comment2.params=
+comment2.target=int\ getMissedPickups()
+comment2.text=\n\ @return\ The\ number\ of\ passengers\ for\ whom\ a\ pickup\n\ \ \ \ \ \ \ \ \ could\ not\ be\ found.\n
+comment3.params=
+comment3.target=Passenger\ createPassenger()
+comment3.text=\n\ Create\ a\ new\ passenger\ with\ distinct\ pickup\ and\n\ destination\ locations.\n\ @return\ The\ created\ passenger.\n
+numComments=4

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=image
+comment0.target=OFImage(java.awt.image.BufferedImage)
+comment0.text=\n\ Create\ an\ OFImage\ copied\ from\ a\ BufferedImage.\n\ @param\ image\ The\ image\ to\ copy.\n
+comment1.params=width\ height
+comment1.target=OFImage(int,\ int)
+comment1.text=\n\ Create\ an\ OFImage\ with\ specified\ size\ and\ unspecified\ content.\n\ @param\ width\ The\ width\ of\ the\ image.\n\ @param\ height\ The\ height\ of\ the\ image.\n
+comment2.params=x\ y\ col
+comment2.target=void\ setPixel(int,\ int,\ java.awt.Color)
+comment2.text=\n\ Set\ a\ given\ pixel\ of\ this\ image\ to\ a\ specified\ color.\ The\n\ color\ is\ represented\ as\ an\ (r,g,b)\ value.\n\ @param\ x\ The\ x\ position\ of\ the\ pixel.\n\ @param\ y\ The\ y\ position\ of\ the\ pixel.\n\ @param\ col\ The\ color\ of\ the\ pixel.\n
+comment3.params=x\ y
+comment3.target=java.awt.Color\ getPixel(int,\ int)
+comment3.text=\n\ Get\ the\ color\ value\ at\ a\ specified\ pixel\ position.\n\ @param\ x\ The\ x\ position\ of\ the\ pixel.\n\ @param\ y\ The\ y\ position\ of\ the\ pixel.\n\ @return\ The\ color\ of\ the\ pixel\ at\ the\ given\ position.\n
+numComments=4
