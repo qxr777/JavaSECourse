@@ -1,10 +1,10 @@
 package cn.edu.whut.cs.java.dome;
 
 public class Item {
-    private String title;
-    private int playingTime;
-    private boolean gotIt;
-    private String comment;
+    protected String title;
+    protected int playingTime;
+    protected boolean gotIt;
+    protected String comment;
 
     public Item(String theTitle, int time)
     {
@@ -48,16 +48,19 @@ public class Item {
         return gotIt;
     }
 
-    /**
-     * Print details about this CD to the text terminal.
-     */
-	public void print() {
-		System.out.print(": " + title + " (" + playingTime + " mins)");
-		if (gotIt) {
-			System.out.println("*");
-		} else {
-			System.out.println();
-		}
-		System.out.println("    " + comment);
-	}
+    public void print() {
+    }
+
+//    /**
+//     * Print details about this CD to the text terminal.
+//     */
+//	public void print() {
+//		System.out.print("ITEM : " + title + " (" + playingTime + " mins)");
+//		if (gotIt) {
+//			System.out.println("*");
+//		} else {
+//			System.out.println();
+//		}
+//		System.out.println("    " + comment);
+//	}
 }

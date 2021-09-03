@@ -20,7 +20,24 @@ public class CD extends Item
     {
         super(theTitle, time);
     	artist = theArtist;
+
         numberOfTracks = tracks;
+    }
+
+    /**
+     * Print details about this CD to the text terminal.
+     */
+    @Override
+    public void print() {
+        System.out.print("CD : " + title + " (" + playingTime + " mins)");
+        if (gotIt) {
+            System.out.println("*");
+        } else {
+            System.out.println();
+        }
+        System.out.println("    " + artist);
+        System.out.println("    tracks: " + numberOfTracks);
+        System.out.println("    " + comment);
     }
 
 }

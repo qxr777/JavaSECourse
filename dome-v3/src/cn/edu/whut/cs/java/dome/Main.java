@@ -1,7 +1,14 @@
 package cn.edu.whut.cs.java.dome;
 
+/**
+ * DOME的测试程序
+ */
 public class Main {
 
+	/**
+	 * 测试程序执行入口
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		CD cd1 = new CD("cd1 title","artist1",12,60);
 		cd1.setOwn(true);

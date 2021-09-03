@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class NotebookPro {
-	
+
 	ArrayList<String> notes = new ArrayList<String>();
 	
 	void addNote(String note) {

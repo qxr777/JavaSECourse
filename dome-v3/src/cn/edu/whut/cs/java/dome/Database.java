@@ -1,6 +1,8 @@
 package cn.edu.whut.cs.java.dome;
 
+
 import java.util.ArrayList;
+
 /**
  * 提供一个多媒体数据库，可以将用户的CD和DVD信息存入，并可以列表输出所有实体
  * @author qixin

@@ -1,5 +1,8 @@
 package cn.edu.whut.cs.java.dome;
 
+
+import java.util.Objects;
+
 /**
  * 代表CD媒体
  * @author qixin
@@ -27,6 +30,7 @@ public class CD extends Item
     /**
      * 在控制台输出CD对象的属性值
      */
+    @Override
 	public void print() {
 		System.out.print("CD");
 		super.print();
@@ -36,18 +40,25 @@ public class CD extends Item
 
 	@Override
 	public String toString() {
-		return "CD [artist=" + artist + ", numberOfTracks=" + numberOfTracks + ", title=" + title + ", playingTime="
-				+ playingTime + ", gotIt=" + gotIt + ", comment=" + comment + "]";
+		return "CD{" +
+				"artist='" + artist + '\'' +
+				", numberOfTracks=" + numberOfTracks +
+				'}';
 	}
 
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((artist == null) ? 0 : artist.hashCode());
-		result = prime * result + numberOfTracks;
-		return result;
+		return Objects.hash(super.hashCode(), artist, numberOfTracks);
 	}
+
+	//	@Override
+//	public int hashCode() {
+//		final int prime = 31;
+//		int result = 1;
+//		result = prime * result + ((artist == null) ? 0 : artist.hashCode());
+//		result = prime * result + numberOfTracks;
+//		return result;
+//	}
 
 	@Override
 	public boolean equals(Object obj) {

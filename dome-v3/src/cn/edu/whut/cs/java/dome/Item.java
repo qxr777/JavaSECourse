@@ -1,14 +1,17 @@
 package cn.edu.whut.cs.java.dome;
+
+import java.util.Objects;
+
 /**
  * 各类媒体的超类
  * @author qixin
  *
  */
-public class Item {
-    protected String title;   //标题
-    protected int playingTime;  //总播放时长，单位秒
-    protected boolean gotIt;   // 是否拥有
-    protected String comment;   //备注
+public class Item extends Object{
+    private String title;   //标题
+    private int playingTime;  //总播放时长，单位秒
+    private boolean gotIt;   // 是否拥有
+    private String comment;   //备注
 
     /**
      * 初始化Item对象
@@ -52,4 +55,20 @@ public class Item {
 		}
 		System.out.println("    " + comment);
 	}
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Item item = (Item) o;
+        return playingTime == item.playingTime &&
+                gotIt == item.gotIt &&
+                title.equals(item.title) &&
+                Objects.equals(comment, item.comment);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(title, playingTime, gotIt, comment);
+    }
 }

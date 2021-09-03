@@ -22,4 +22,18 @@ public class DVD extends Item
         director = theDirector;
     }
 
+    /**
+     * Print details about this CD to the text terminal.
+     */
+    public void print() {
+        System.out.print("DVD : " + title + " (" + playingTime + " mins)");
+        if (gotIt) {
+            System.out.println("*");
+        } else {
+            System.out.println();
+        }
+        System.out.println("    " + director);
+        System.out.println("    " + comment);
+    }
+
 }
